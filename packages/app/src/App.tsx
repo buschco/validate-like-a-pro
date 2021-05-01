@@ -1,7 +1,7 @@
 import { Formik, useField } from "formik";
 import { useState } from "react";
 import { string, object, number, Asserts } from "yup";
-import { mapErrorsToFields, validateInput } from "validate";
+import { handleFieldErrors, validateInput } from "validate";
 import "./styles.css";
 
 const MyTextField = ({
@@ -79,9 +79,7 @@ export default function App() {
             const nextResult = await submitBackend(values);
             setResult(nextResult);
           } catch (error) {
-            if (error.fieldErrors != null) {
-              mapErrorsToFields(setFieldError, error.fieldErrors);
-            }
+            handleFieldErrors(error, setFieldError);
           }
         }}
       >
