@@ -6,7 +6,8 @@
   "main": "./validate.js",
   "typings": "./validate.d.ts",
   "scripts": {
-    "build": "tsc -d validate.ts"
+    "build": "tsc -d validate.ts",
+    "postinstall": "yarn build"
   },
   "dependencies": {
     "yup": "^0.32.9"
