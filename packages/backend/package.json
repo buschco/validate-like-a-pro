@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "author": "buschco",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn ts-node backend.ts"
+  },
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.7",
+    "@types/express": "^4.17.11",
+    "ts-node": "^9.1.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "validate": "*",
+    "yup": "^0.32.9"
+  }
+}

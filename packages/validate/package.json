@@ -1,0 +1,14 @@
+{
+  "name": "validate",
+  "version": "1.0.0",
+  "author": "buschco",
+  "license": "MIT",
+  "main": "./validate.js",
+  "typings": "./validate.d.ts",
+  "scripts": {
+    "build": "tsc -d validate.ts"
+  },
+  "dependencies": {
+    "yup": "^0.32.9"
+  }
+}
