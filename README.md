@@ -1,6 +1,6 @@
 # Validate like a pro everywhere with yup
 
-This is a sample repo for my blog post at [dev.to](dev.to)
+This is a sample repo for my blog post at [dev.to](https://dev.to/buschco/validate-like-a-pro-everywhere-with-yup-2phn)
 
 ## Links to interesting files
 
